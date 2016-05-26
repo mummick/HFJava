@@ -2,7 +2,6 @@ package DJChat;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 /**
  * Created by lab on 26.05.16.
@@ -14,7 +13,6 @@ class MyDrawPanel extends JPanel {
     }
 }
 class SimpleGui364  {
-    JButton button;
     public void go() {
         JFrame frame = new JFrame();
         MyDrawPanel draw = new MyDrawPanel();
