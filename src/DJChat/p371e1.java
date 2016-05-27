@@ -7,7 +7,7 @@ import java.awt.event.*;
 /**
  * Created by lab on 27.05.16.
  */
-class SimpeGui3C implements ActionListener {
+class SimpleGui3C implements ActionListener {
     JFrame frame;
     public void actionPerformed(ActionEvent event) {
         frame.repaint();
@@ -28,7 +28,7 @@ class SimpeGui3C implements ActionListener {
 }
 public class p371e1 {
     public static void main(String[] args) {
-        SimpeGui3C gui = new SimpeGui3C();
+        SimpleGui3C gui = new SimpleGui3C();
         gui.go();
     }
 }
